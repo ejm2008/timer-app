@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'main_screen.dart';
 
 void main() {
   runApp(TimerApp());
@@ -14,7 +15,7 @@ class TimerApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: TimerScreen(),
+      home: MainScreen(),
     );
   }
 }
